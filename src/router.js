@@ -12,7 +12,7 @@ import Posts from "./components/Posts";
 export default class Router extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App>
           <Layout>
             <Switch>
