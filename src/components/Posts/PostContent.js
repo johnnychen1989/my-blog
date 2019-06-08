@@ -215,9 +215,9 @@ export default class PostHeader extends Component {
                 <span class="token punctuation">{`}`}</span>
                 <span class="token keyword">from</span>{" "}
                 <span class="token string">'react-router-dom'</span>
+                <br />
                 <span class="token comment">
-                  <br />
-                  // We will create these two pages in a moment
+                  {"// We will create these two pages in a moment"}
                 </span>
                 <br />
                 <span class="token keyword">import</span> HomePage
@@ -603,7 +603,7 @@ export default class PostHeader extends Component {
                 <span class="token punctuation">{`{`}</span>
                 <br />
                 {"  "}
-                <span class="token comment">// Setting initial state</span>
+                <span class="token comment">{"// Setting initial state"}</span>
                 <br />
                 {"  "}
                 <span class="token keyword">const</span> initialUserState{" "}
@@ -620,7 +620,7 @@ export default class PostHeader extends Component {
                 <br />
                 {"  "}
                 <span class="token comment">
-                  // Getter and setter for user state
+                  {"// Getter and setter for user state"}
                 </span>
                 <br />
                 {"  "}
@@ -635,8 +635,9 @@ export default class PostHeader extends Component {
                 <br />
                 {"  "}
                 <span class="token comment">
-                  // Using useEffect to retrieve data from an API (similar to
-                  componentDidMount in a class)
+                  {
+                    "// Using useEffect to retrieve data from an API (similar to componentDidMount in a class)"
+                  }
                 </span>
                 <br />
                 {"  "}
@@ -657,7 +658,7 @@ export default class PostHeader extends Component {
                 <br />
                 {"  "}
                 <span class="token comment">
-                  // Pass our param (:id) to the API call
+                  {"// Pass our param (:id) to the API call"}
                 </span>
                 <br />
                 {"  "}
@@ -688,7 +689,7 @@ export default class PostHeader extends Component {
                 <span class="token punctuation">)</span>
                 <br />
                 {"  "}
-                <span class="token comment">// Update state</span>
+                <span class="token comment">{"// Update state"}</span>
                 <br />
                 {"  "}
                 <span class="token function">setUser</span>
@@ -697,7 +698,9 @@ export default class PostHeader extends Component {
                 <span class="token punctuation">}</span>
                 <br />
                 {"  "}
-                <span class="token comment">// Invoke the async function</span>
+                <span class="token comment">
+                  {"// Invoke the async function"}
+                </span>
                 <br />
                 {"  "}
                 <span class="token function">getUser</span>
@@ -711,13 +714,14 @@ export default class PostHeader extends Component {
                 <br />
                 {"  "}
                 <span class="token comment">
-                  // Don't forget the `[]`, which will prevent useEffect from
-                  running in an infinite loop
+                  {
+                    "// Don't forget the `[]`, which will prevent useEffect from running in an infinite loop"
+                  }
                 </span>
                 <br />
                 {"  "}
                 <span class="token comment">
-                  // Return a table with some data from the API.
+                  {"// Return a table with some data from the API."}
                 </span>
                 <br />
                 {"  "}

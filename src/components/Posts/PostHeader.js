@@ -16,12 +16,15 @@ export default class PostHeader extends Component {
             <h1>Using React Router for a Single Page Application</h1>
             <div class="post-meta">
               <time class="date">Jun 10th, 2019</time>/
-              <a class="twitter-link" href="">
+              <a class="twitter-link" href="https://github.com/johnnychen1989">
                 Share
               </a>
               /
-              <a class="github-link" href="">
-                Edit on Github ✏️
+              <a class="github-link" href="https://github.com/johnnychen1989">
+                Edit on Github{" "}
+                <span role="img" aria-label="edit">
+                  ✏️
+                </span>
               </a>
             </div>
           </div>
