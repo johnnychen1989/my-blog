@@ -16,7 +16,7 @@ export default class Index extends Component {
   render() {
     // const { data } = this.props;
     // const latestPostEdges = data.latest.edges;
-    console.log(this.props);
+    // console.log(this.props);
     return (
       <>
         <Helmet title={`${config.siteTitle} – Front-End Software Developer`} />

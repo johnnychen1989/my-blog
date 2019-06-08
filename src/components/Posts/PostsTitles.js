@@ -11,10 +11,10 @@ export default class PostsHeader extends Component {
 
     return (
       <div>
-        <section class="posts simple">
+        <section className="posts simple">
           <Link to="/blog/article-react-router/">
             <div className="each">
-              <div class=" gatsby-image-wrapper">
+              <div className=" gatsby-image-wrapper">
                 <img src={react} alt="React" style={imgStyle} />
               </div>
               <div>
